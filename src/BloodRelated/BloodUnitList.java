@@ -131,7 +131,7 @@ public class BloodUnitList implements Serializable {
                         list.add(unit);
                     }
                 }
-                System.out.println("Blood data loaded successfully");
+                //System.out.println("Blood data loaded successfully");
             } catch (IOException e) {
                 System.err.println("Error loading blood units from file: " + fileName);
             }
