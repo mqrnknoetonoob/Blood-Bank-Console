@@ -36,7 +36,7 @@ public class Server {
     private static StuffList staffList = new StuffList();
     private static BloodUnitList bloodUnitList = new BloodUnitList();
     private static KitManagement kit = new KitManagement();
-    static {                // static init‑block: ফাইল থেকে মান পড়ে নেবে
+    static {
         x = loadCounter(XFILE);
         y = loadCounter(YFILE);
     }
